@@ -1,0 +1,79 @@
+[debug] [2023-02-07T18:22:29.627Z] ----------------------------------------------------------------------
+[debug] [2023-02-07T18:22:29.630Z] Command:       /usr/local/bin/node /usr/local/bin/firebase init
+[debug] [2023-02-07T18:22:29.630Z] CLI Version:   11.8.0
+[debug] [2023-02-07T18:22:29.630Z] Platform:      linux
+[debug] [2023-02-07T18:22:29.630Z] Node Version:  v16.17.0
+[debug] [2023-02-07T18:22:29.631Z] Time:          Tue Feb 07 2023 23:22:29 GMT+0500 (Pakistan Standard Time)
+[debug] [2023-02-07T18:22:29.631Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-02-07T18:22:29.638Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-02-07T18:22:29.639Z] > authorizing via signed-in user (awaisqurashi43@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /home/awais/projects/Sir-Ameen-classes/piaic-tasks/html-css-
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-02-07T18:22:58.339Z] > refreshing access token with scopes: []
+[debug] [2023-02-07T18:22:58.342Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-02-07T18:22:58.342Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-02-07T18:22:58.365Z] Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+[debug] [2023-02-07T18:22:58.373Z] FirebaseError: Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+    at invalidCredentialError (/usr/local/lib/node_modules/firebase-tools/lib/auth.js:144:12)
+    at refreshTokens (/usr/local/lib/node_modules/firebase-tools/lib/auth.js:508:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Client.getAccessToken (/usr/local/lib/node_modules/firebase-tools/lib/apiv2.js:149:23)
+    at async Client.addAuthHeader (/usr/local/lib/node_modules/firebase-tools/lib/apiv2.js:140:21)
+    at async Client.request (/usr/local/lib/node_modules/firebase-tools/lib/apiv2.js:96:34)
+    at async getProjectPage (/usr/local/lib/node_modules/firebase-tools/lib/management/projects.js:238:17)
+    at async getFirebaseProjectPage (/usr/local/lib/node_modules/firebase-tools/lib/management/projects.js:255:23)
+    at async selectProjectInteractively (/usr/local/lib/node_modules/firebase-tools/lib/management/projects.js:94:41)
+    at async doSetup (/usr/local/lib/node_modules/firebase-tools/lib/init/features/project.js:88:27)
+    at async init (/usr/local/lib/node_modules/firebase-tools/lib/init/index.js:36:9)
+[error] 
+[error] Error: Failed to list Firebase projects. See firebase-debug.log for more info.
+[debug] [2023-02-07T18:23:11.083Z] ----------------------------------------------------------------------
+[debug] [2023-02-07T18:23:11.086Z] Command:       /usr/local/bin/node /usr/local/bin/firebase init
+[debug] [2023-02-07T18:23:11.086Z] CLI Version:   11.8.0
+[debug] [2023-02-07T18:23:11.086Z] Platform:      linux
+[debug] [2023-02-07T18:23:11.087Z] Node Version:  v16.17.0
+[debug] [2023-02-07T18:23:11.087Z] Time:          Tue Feb 07 2023 23:23:11 GMT+0500 (Pakistan Standard Time)
+[debug] [2023-02-07T18:23:11.087Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-02-07T18:23:11.094Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-02-07T18:23:11.095Z] > authorizing via signed-in user (awaisqurashi43@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /home/awais/projects/Sir-Ameen-classes/piaic-tasks/html-css-
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 

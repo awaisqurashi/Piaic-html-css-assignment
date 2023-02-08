@@ -1,0 +1,109 @@
+*{
+    text-decoration: none;
+    
+}
+
+.navbar{
+background-color: rgb(103, 148, 239);
+border-radius: 1rem;
+}
+
+.logo{
+    font-size: xx-large;
+    padding-right: 25rem;
+}
+
+
+.nav-href a{
+    color: black;
+    margin: 1rem;
+    padding-bottom: 6rem;
+    font-size: larger;
+}
+
+.content img{
+    width: 95%;
+    height: 500px;
+    margin-left: 2rem;
+    margin-right: 2rem; 
+}
+
+.content p{
+    margin-left: 2rem;
+    margin-right: 2rem; 
+}
+
+.sideBySide{
+    display: flex;
+}
+
+.about-content .para{
+    width: 60%;
+    display: flex;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.about-content img{
+    padding-top: 1rem;
+    width: 30%;
+    float: right;
+    border-radius: 2rem;
+}
+
+.about-content p ,ul{
+    margin-left: 2rem;
+    margin-right: 2rem;  
+}
+
+.about-content iframe{
+
+    width: 95%;
+    margin-left: 2rem;
+    margin-right: 2rem; 
+    border-radius: 2rem;
+    height: 30rem;
+    
+}
+
+.content-1 , .content-2{
+    display: flex;
+}
+.content-1 img ,.content-2 img {
+    margin-left: 2rem;
+    margin-right: 2rem; 
+    padding-top: 2rem;
+    width: 30%;
+    height: 15rem;
+
+}
+
+.content-1 h3 , .content-2 h3{
+    padding-top: 2rem;
+  
+    
+}
+
+
+.Contact-content{
+
+    margin-left: 2rem;
+    margin-right: 2rem; 
+}
+
+.map iframe{
+    width: 95%;
+    height: 25rem;
+    padding-top: 1rem;
+
+    margin-left: 1rem;
+    margin-right: 2rem; 
+}
+
+
+.foot{
+    background-color: rgb(103, 148, 239);
+    text-align: center;
+    font-size: x-large;
+    border-radius: 1rem;
+}
